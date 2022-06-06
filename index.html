@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    <link rel="stylesheet" href="styles/styles.css">
   </head>
   <body>
     <header class="page-header">
@@ -17,7 +18,7 @@
             <a class="navigation-link" href="#">Главная</a>
           </li>
           <li class="navigation-item">
-            <a class="navigation-link" href="#">О седоне</a>
+            <a class="navigation-link" href="#">О Cедоне</a>
           <li class="navigation-item">
             <a class="navigation-link" href="catalog.html">Гостиницы</a>
           </li>
@@ -32,19 +33,18 @@
               Избранное </span></a>
           </li>
           <li class="navigation-item">
-            <a class="navigation-link" href="#">Хочу сюда</a>
+            <a class="button" href="#">Хочу сюда</a>
           </li>
         </ul>
       </nav>
     </header>
 
     <main>
-      <h1 class="visually-hidden">Седона</h1>
-      <img class="Welcome" src="images/welcome-group.png" width="1200" height="485" alt="Welcome to the gorgeous Sedona. Because the Grand Canyon sucks!">
-
+       <h1 class="visually-hidden">Седона</h1>
+       <img class="welcome-img" src="images/welcome-group.png" width="1200" height="485" alt="Welcome to the gorgeous Sedona. Because the Grand Canyon sucks!">
       <section class="title-section">
         <h2>
-          Седона - небольшой городок в Аризоне, заслуживающий большего!
+          Седона — небольшой городок в Аризоне, <br>заслуживающий большего!
         </h2>
         <p>Рассмотрим 5 причин, по которым Седона круче, чем Гранд-Каньон! </p>
 
@@ -61,22 +61,20 @@
         </div>
       </section>
 
-      <section class="advantages">
-        <div>
-          <img class="house" src="images/icon/house.svg" width="84" height="84" alt="Дом">
+      <section class="advantages house">
+          <img class="house-logo" src="images/icon/house.svg" width="84" height="84" alt="Дом">
           <h3 class="advantages-title">Жильё</h3>
           <p class="advantages-description">Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
-        </div>
       </section>
 
-      <section class="advantages">
-        <img class="burger" src="images/icon/food.svg" width="84" height="84" alt="Бургер">
+      <section class="advantages burger">
+        <img class="burger-logo" src="images/icon/food.svg" width="84" height="84" alt="Бургер">
         <h3 class="advantages-title">Еда</h3>
         <p class="advantages-description">Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</p>
       </section>
 
-      <section class="advantages">
-        <img class="Present" src="images/icon/present.svg" width="84" height="84" alt="Подарок">
+      <section class="advantages present">
+        <img class="present-logo" src="images/icon/present.svg" width="84" height="84" alt="Подарок">
         <h3 class="advantages-title">Сувениры</h3>
         <p class="advantages-description">Не только китайского, но и настоящего местного производства!</p>
       </section>
@@ -116,12 +114,12 @@
         </div>
       </section>
 
-      <section class="Hotels">
+      <section class="hotels">
         <h2>
           Заинтересовались?
         </h2>
-        <p>Укажите предполагаемые даты поездки,и мы покажем вам лучшие предложения гостиниц в Седоне</p>
-         <a href="catalog.html"> Поиск гостиницы в Седоне</a>
+        <p>Укажите предполагаемые даты поездки, <br>и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+         <a href="catalog.html" class="button"> Поиск гостиницы в Седоне</a>
       </section>
    </main>
 
@@ -157,7 +155,7 @@
     </section>
 
     <section class="footer-contacts">
-      <a class="footer-contacts-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
+      <a class="contacts-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
     </section>
 
     <section class="footer-logo">

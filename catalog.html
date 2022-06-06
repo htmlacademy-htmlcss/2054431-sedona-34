@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    <link rel="stylesheet" href="styles/styles.css">
   </head>
   <body>
     <header class="page-header">
@@ -17,7 +18,7 @@
             <a class="navigation-link" href="index.html">Главная</a>
           </li>
           <li class="navigation-item">
-            <a class="navigation-link" href="#">О седоне</a>
+            <a class="navigation-link" href="#">О Cедоне</a>
           <li class="navigation-item">
             <a class="navigation-link" href="catalog.html">Гостиницы</a>
           </li>
@@ -39,7 +40,7 @@
     </header>
 
     <main>
-
+    <div class="hotels-form">
      <header class="inner-header">
         <h1 class="inner-header-title">Гостиницы Седоны</h1>
         <ul class="breadcrumbs">
@@ -118,8 +119,9 @@
             <button class="button" type="submit">Применить</button>
             <button class="button" type="refresh">Сбросить</button>
           </form>
+    </div>
 
-        <h2>Найдено гостиниц:38</h2>
+        <h2 class="find-count">Найдено гостиниц:38</h2>
         <select class="select-control" aria-label="Сортировка">
             <option value="popular">Сначала популярное</option>
             <option value="cheap">Сначала дешёвое</option>
@@ -242,7 +244,7 @@
 
     <footer class="page-footer">
 
-        <section class="subscription">
+        <section class="subscription subscription-catalog">
           <h2 class="subscription-title">Подпишитесь на рассылку</h2>
           <p>Только полезная информация и никакого спама, честное бойскаутское!</p>
           <form class="subscription-form" action="https://echo.htmlacademy.ru/" method="post">
